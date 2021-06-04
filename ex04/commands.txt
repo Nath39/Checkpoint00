@@ -1,0 +1,4 @@
+sed 's/gonna/GONNA/' Never_gonna_give_you_up.RickRolled
+
+awk 'NF' Never_gonna_give_you_up.RickRolled
+

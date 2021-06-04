@@ -1,0 +1,41 @@
+apprenant@apprenant-desktop:~/Bureau/Checkpoint00/ex03$ sed "s/Corbeau/Chat/g" leCorbeauEtLeRenard.txt
+
+Maître Chat, sur un arbre perché,
+Tenait en son bec un fromage.
+Maître Renard, par l'odeur alléché,
+Lui tint à peu près ce langage :
+Et bonjour, Monsieur du Chat.
+Que vous êtes joli ! que vous me semblez beau !
+Sans mentir, si votre ramage
+Se rapporte à votre plumage,
+Vous êtes le Phénix des hôtes de ces bois.
+À ces mots, le Chat ne se sent pas de joie ;
+Et pour montrer sa belle voix,
+Il ouvre un large bec, laisse tomber sa proie.
+Le Renard s'en saisit, et dit : Mon bon Monsieur,
+Apprenez que tout flatteur
+Vit aux dépens de celui qui l'écoute.
+Cette leçon vaut bien un fromage, sans doute.
+Le Chat honteux et confus
+Jura, mais un peu tard, qu'on ne l'y prendrait plus
+
+sed '/Corbeau/chat/' leCorbeauEtLeRenard.txt 
+
+
+Tenait en son bec un fromage.
+Maître Renard, par l'odeur alléché,
+Lui tint à peu près ce langage :
+
+Que vous êtes joli ! que vous me semblez beau !
+Sans mentir, si votre ramage
+Se rapporte à votre plumage,
+Vous êtes le Phénix des hôtes de ces bois.
+
+Et pour montrer sa belle voix,
+Il ouvre un large bec, laisse tomber sa proie.
+Le Renard s'en saisit, et dit : Mon bon Monsieur,
+Apprenez que tout flatteur
+Vit aux dépens de celui qui l'écoute.
+Cette leçon vaut bien un fromage, sans doute.
+
+Jura, mais un peu tard, qu'on ne l'y prendrait plus.
